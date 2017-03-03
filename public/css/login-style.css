@@ -1,0 +1,56 @@
+		body{
+			font-family: "proxima-nova", "helvetica neue", helvetica, arial, sans-serif !important;
+			text-align: center;
+		}
+		h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+			font-family: "proxima-nova", "helvetica neue", helvetica, arial, sans-serif !important;
+		}
+
+		.header {
+			margin: 20px 20px;
+		}
+
+		.auth-form {
+			max-width: 100%;
+			padding-left: 40px;
+			padding-right: 40px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+
+			font-size: 14px;
+			background-color: #fff,
+			border-radius: 15px;
+			border: 1px solid #d8dee2;
+		}
+
+		.create-account {
+			margin-top: 10px;
+			max-width: 100%;
+			padding-left: 40px;
+			padding-right: 40px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			font-size: 14px;
+			background-color: #fff,
+			border-radius: 15px;
+			border: 1px solid #d8dee2;
+		}
+
+		.footer {
+			color: #555;
+			margin-top: 20px;
+			border-top: 1px solid #999;
+		}
+		.footer li {
+			display: inline-block;
+			padding: 4px 10px;
+		}
+
+		.footer li a {
+			text-decoration: none;
+			color: #888;
+		}
+
+		.footer li a:hover {
+			color: #222;
+		}

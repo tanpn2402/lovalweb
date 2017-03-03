@@ -1,0 +1,129 @@
+body{
+	font-family: "proxima-nova", "helvetica neue", helvetica, arial, sans-serif !important;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+	font-family: "proxima-nova", "helvetica neue", helvetica, arial, sans-serif !important;
+}
+.nav-header {
+			position: fixed;
+			min-height: 70px;
+			max-height: 200px;
+			min-width: 100%;
+			color: #fff;
+			background-color: #fff;
+			border-bottom: 1px solid #999;
+			margin-bottom: 100px;
+			z-index: 1;
+		}
+
+		.nav-banner {
+			left: 0;
+			float: left;
+			width: 400px;
+			text-align: center;
+		}
+
+		.nav-menu {
+			float: right;
+			margin-right: 100px;	
+			text-align: center;
+		}
+
+		.nav-menu li {
+			display: inline-block;
+			margin: 0px 35px;
+			color: #000;
+			line-height: 0px;
+		}
+
+
+		.btn-primary {
+			border-radius: 30px; 
+			border: 0px; 
+			background-color: #ff2b1f; 
+			padding: 10px 35px;
+			color: #fff;
+			text-decoration-line: none;
+			font-family: "proxima-nova", "helvetica neue", helvetica, arial, sans-serif;
+		}
+
+		
+
+		.btn-menu {
+			height: 40px;
+			display: block;
+			text-decoration: none;
+			color: #777;
+			background-color: transparent;
+			font-family: "proxima-nova", "helvetica neue", helvetica, arial, sans-serif;
+			line-height: 70px;
+			font-size: 15px;
+		}
+
+		.btn-menu:hover {
+			color: #111;
+			border-bottom: 1px solid #ff2b1f;
+			
+			transition: 3s;
+		}
+
+/*body in main layout*/
+.main-body {
+	max-width: 80%;
+	margin-left: 10%;
+	
+}
+
+
+/* sign in */
+.header {
+			margin: 20px 20px;
+		}
+
+		.auth-form {
+			max-width: 100%;
+			padding-left: 40px;
+			padding-right: 40px;
+			font-size: 14px;
+			background-color: #fff,
+			border-radius: 5px;
+			border: 1px solid #d8dee2;
+		}
+
+		.create-account {
+			margin-top: 10px;
+			max-width: 100%;
+			padding: 20px;
+			font-size: 14px;
+			background-color: #fff,
+			border-radius: 5px;
+			border: 1px solid #d8dee2;
+		}
+
+		.main-footer {
+			color: #555;
+			margin-top: 20px;
+			border-top: 1px solid #999;
+		}
+		.main-footer li {
+			display: inline-block;
+			padding: 4px 10px;
+		}
+
+		.main-footer li a {
+			text-decoration: none;
+			color: #888;
+		}
+
+		.main-footer li a:hover {
+			color: #222;
+		}
+
+
+
+
+
+/*in file home.blade.php*/
+.img {
+
+}
